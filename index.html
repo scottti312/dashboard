@@ -6,6 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -14,24 +15,59 @@
     <div class="sidebar">
       <div class="title">Dashboard</div>
       <ul class="menu">
-        <li>Home</li>
-        <li>Profile</li>
-        <li>Messages</li>
-        <li>History</li>
-        <li>Tasks</li>
-        <li>Communities</li>
+        <div class="home">
+          <img src="assets/sidebar/home.svg" alt="home">
+          <li>Home</li>
+        </div>
+        <div class="profile">
+          <img src="assets/sidebar/account.svg" alt="profile">
+          <li>Profile</li>
+        </div>
+        <div class="messages">
+          <img src="assets/sidebar/message-text.svg" alt="mail">
+          <li>Messages</li>
+        </div>
+        <div class="history">
+          <img src="assets/sidebar/book-open-page-variant-outline.svg" alt="history">
+          <li>History</li>
+        </div>
+        <div class="tasks">
+          <img src="assets/sidebar/check-all.svg" alt="tasks">
+          <li>Tasks</li>
+        </div>
+        <div class="communities">
+          <img src="assets/sidebar/account-group.svg" alt="communities">
+          <li>Communities</li>
+        </div>
+        <img>
       </ul>
-      <ul class="settings">
-        <li>Settings</li>
-        <li>Support</li>
-        <li>Privacy</li>
+      <ul class="bottom-menu">
+        <div class="settings">
+          <img src="assets/sidebar/cog.svg" alt="settings">
+          <li class="settings">Settings</li>
+        </div>
+        <div class="support">
+          <img src="assets/sidebar/help.svg" alt="support">
+          <li class="support">Support</li>
+        </div>
+        <div class="privacy">
+          <img src="assets/sidebar/shield-check.svg" alt="privacy">
+          <li class="privacy">Privacy</li>
+        </div>
       </ul>
     </div>
     <div class="header">
-      <div class="search-bar">
-        <input type="text">
+      <div class="search-container">
+        <img src="assets/sidebar/magnify.svg" alt="search" style="width: 20px;">
+        <div class="search-bar">
+          <input type="text">
+        </div>
       </div>
-      <div class="user">Scott Ti</div>
+      <div class="name">
+        <img class="bell" src="assets/bell-badge-outline.svg" alt="bell" style="width:25px;">
+        <img class="user-icon" src="assets/dogcat.png" alt="dogcat">
+        <div class="user">Scott Ti</div>
+      </div>
       <div class="greet">
         <img class="user-icon" src="assets/dogcat.png" alt="dogcat">
         <div class="greet-text">
