@@ -15,8 +15,35 @@ body {
 }
 
 .header {
-  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
   box-shadow: var(--content-box-shadow);
+}
+
+.header .search-bar {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+.header .search-bar input {
+  width: 70%;
+  height: 25px;
+  border-radius: 12px;
+  border: 0;
+  background-color: #CCCCCC;
+}
+
+.header .user-icon {
+  height: 100px;
+  width: 55px;
+  object-fit: cover;
+}
+
+.header .greet {
+  display: flex;
+  align-items: center;
 }
 
 .sidebar {
